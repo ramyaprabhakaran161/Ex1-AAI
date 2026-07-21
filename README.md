@@ -1,13 +1,12 @@
 <H3> Name:Ramya P </H3>
 <H3>Register No:212223230168</H3>
-<H3> Experiment 1</H3>
+<H3> Experiment:1</H3>
 <H3>DATE:21-7-2026</H3>
 <H1 ALIGN=CENTER> Implementation of Bayesian Networks</H1>
-## Aim :
-```
-    To create a bayesian Network for the given dataset in Python
-```
- 
+
+## Aim:
+ To create a bayesian Network for the given dataset in Python
+
 ## Algorithm:
 ```
 Step 1:Import necessary libraries: pandas, networkx, matplotlib.pyplot, Bbn, Edge, EdgeType, BbnNode, Variable, EvidenceBuilder, InferenceController<br/>
@@ -108,12 +107,14 @@ print(probs(df, child='WindGustSpeedCat'))
 print(probs(df, child='RainTomorrow', parent1='Humidity3pmCat', parent2='WindGustSpeedCat'))
 ```
 ## Output:
-<img width="1773" height="681" alt="image" src="https://github.com/user-attachments/assets/8f46c6a3-6adf-436d-9914-34cbc85afd99" />
-<img width="1773" height="681" alt="image" src="https://github.com/user-attachments/assets/6cdcb8d8-f53b-49c6-9902-26329b444ca6" />
-<img width="1773" height="681" alt="image" src="https://github.com/user-attachments/assets/424b03ff-cfcf-40e6-bd69-740c77441d66" />
-<img width="1758" height="492" alt="image" src="https://github.com/user-attachments/assets/75991376-1692-4023-98a4-f8cc4e1847d7" />
-<img width="1758" height="492" alt="image" src="https://github.com/user-attachments/assets/a0290dea-44ba-4597-9fa1-4ac4d4bd6f82" />
-<img width="1800" height="529" alt="image" src="https://github.com/user-attachments/assets/583ee52e-b9ef-44ed-879a-c24956b84155" />
+<img width="1182" height="580" alt="image" src="https://github.com/user-attachments/assets/fe50192f-682c-43d6-832b-f0ee28863072" />
+<img width="1141" height="570" alt="image" src="https://github.com/user-attachments/assets/843f2319-4d9b-4a45-8c5b-a2e8cc5f2f43" />
+<img width="997" height="337" alt="image" src="https://github.com/user-attachments/assets/6cdd13a1-ce68-42a6-a276-47ef3fe4e851" />
+<img width="1040" height="622" alt="image" src="https://github.com/user-attachments/assets/207313a2-e508-4123-8461-fd484ac4984a" />
+<img width="1487" height="65" alt="image" src="https://github.com/user-attachments/assets/aa612df7-63be-4acc-9f8e-18b6a1bcd377" />
+
+
+
 
 
 
