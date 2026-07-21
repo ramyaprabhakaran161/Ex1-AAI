@@ -107,10 +107,16 @@ print(probs(df, child='WindGustSpeedCat'))
 print(probs(df, child='RainTomorrow', parent1='Humidity3pmCat', parent2='WindGustSpeedCat'))
 ```
 ## Output:
+
+## Variable bands:
+
 <img width="1182" height="580" alt="image" src="https://github.com/user-attachments/assets/fe50192f-682c-43d6-832b-f0ee28863072" />
 <img width="1141" height="570" alt="image" src="https://github.com/user-attachments/assets/843f2319-4d9b-4a45-8c5b-a2e8cc5f2f43" />
 <img width="997" height="337" alt="image" src="https://github.com/user-attachments/assets/6cdd13a1-ce68-42a6-a276-47ef3fe4e851" />
+
+## Graph:
 <img width="1040" height="622" alt="image" src="https://github.com/user-attachments/assets/207313a2-e508-4123-8461-fd484ac4984a" />
+
 <img width="1487" height="65" alt="image" src="https://github.com/user-attachments/assets/aa612df7-63be-4acc-9f8e-18b6a1bcd377" />
 
 
